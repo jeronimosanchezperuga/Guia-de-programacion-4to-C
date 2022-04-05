@@ -27,8 +27,18 @@ public class ejercicio : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        capitalTotal = capital1 + capital2 + capital3;
+
+        porc1 = capital1 / capitalTotal * 100;
+        porc2 = capital2 / capitalTotal * 100;
+        porc3 = capital3 / capitalTotal * 100;
+
         Debug.Log("Nombre: " + nombre1 + " capital aportado: $ " + capital1 + 
             ", Porcentaje del capital: %" + porc1 +", Monto total aportado: $" + capitalTotal);
+        Debug.Log("Nombre: " + nombre2 + " capital aportado: $ " + capital2 +
+            ", Porcentaje del capital: %" + porc2 + ", Monto total aportado: $" + capitalTotal);
+        Debug.Log("Nombre: " + nombre3 + " capital aportado: $ " + capital3 +
+            ", Porcentaje del capital: %" + porc3 + ", Monto total aportado: $" + capitalTotal);
     }
 
     // Update is called once per frame

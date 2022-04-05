@@ -141,12 +141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1264ea17c4ce91e4aa761fd463fe2552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombre1: 
-  nombre2: 
-  nombre3: 
-  capital1: 0
-  capital2: 0
-  capital3: 0
+  nombre1: Jero
+  nombre2: Jose
+  nombre3: Javier
+  capital1: 520
+  capital2: 1100
+  capital3: 80
 --- !u!4 &64175279
 Transform:
   m_ObjectHideFlags: 0
